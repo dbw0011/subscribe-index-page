@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="index.css">
   <script>
   var _rollbarConfig = {
-      accessToken: "291293ea21ea49c1b8759b91d5b5b420",
+      accessToken: "token", // add token
       captureUncaught: true,
       captureUnhandledRejections: true,
       payload: {
@@ -42,7 +42,7 @@ a
       const lastNameRes = validateLastName();
       if (lastNameRes) { errors.push(lastNameRes) }
       const emailRes = validateEmail();
-      if (emailRes) { errors.push(emailRess) }
+      if (emailRes) { errors.push(emailRes) }
       const numberRes = validateNumber()
       if (numberRes) { errors.push(numberRes) }
 
